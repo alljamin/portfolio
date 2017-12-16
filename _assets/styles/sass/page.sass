@@ -1,0 +1,29 @@
+.page
+    .page-header
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        &:before
+            content: "";
+            background-color: rgba(0,0,0,.35);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        .page-title
+            position: relative;
+            color: rgb(255,255,255);
+            text-align: center;
+            margin: 0;
+            line-height: 10;
+            z-index: 2;
+    .project-description
+        padding: 4rem;
+    .page-navigation
+        width: auto;
+        overflow: hidden;
+        padding: 0 4rem 4rem;
+        .next
+            float: right;

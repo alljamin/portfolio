@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for page in site.pages reversed %}
+  <article class="post">
+    <span class="image">
+      <img src="{{ page.image }}" alt="" />
+    </span>
+    <div class="project-content">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description}}</p>
+        {% if page.image %}
+        <span class="image main">
+          <img src="{{ page.image }}" alt="" />
+        </span>
+        {% endif %}
+    </div>
+    <a href="{{ page.url | prepend: site.baseurl }}" class="link"></a>
+  </article>
+  {% endfor %}
+</div>

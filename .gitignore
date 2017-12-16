@@ -1,0 +1,9 @@
+assets/
+!/_site/assets/
+.publish/
+.sass-cache
+.DS_Store
+._*
+Thumbs.db
+node_modules
+.jekyll-metadata
