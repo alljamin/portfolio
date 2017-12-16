@@ -1,5 +1,6 @@
 assets/
 !/_site/assets/
+_site
 .publish/
 .sass-cache
 .DS_Store
