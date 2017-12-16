@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "git subtree push --prefix _site origin gh-pages"
+    "deploy": "git add . && git commit -am 'important message' && git subtree push --prefix _site origin gh-pages"
   },
   "devDependencies": {
     "gulp-autoprefixer": "^4.0.0",
