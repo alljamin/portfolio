@@ -9,7 +9,7 @@ collections:
 exclude: ["_assets", "gulpfile.js", "node_modules", "package.json", "package-lock.json", ".jekyll-metadata"]
 
 title: Aleksandr Ljamin
-tagline: 'A Jekyll theme'
+tagline: 'Personal portfolio'
 description: 'Independent web designer and front-end web developer. Previously <a href="https://techstars.com" target="_blank">Techstars</a> and <a href="https://msdn.microsoft.com/en-au/microsoftstudentpartners.aspx" target="_blank">Microsoft Student Partners</a>.'
 
 github: https://github.com/alljamin
