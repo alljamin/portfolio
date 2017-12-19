@@ -71,7 +71,7 @@ Gulp takes files from `_assets` directory (don't rename this directory) applies 
 
 Gulp triggers `jekyll build` and Jekyll grabs everything from `assets` directory and copies to `_site/assets` directory. 
 
-Deploying to Github Pages with `git subtree push --prefix _site origin gh-pages`.
+Deploying to Github Pages with `npm run deploy`.
 
 All the changes are tracked by Gulp Watch (yes, even `_config.yml`) and applied straight away with live browser reloading.
 

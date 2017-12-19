@@ -10,7 +10,7 @@ exclude: ["_assets", "gulpfile.js", "node_modules", "package.json", "package-loc
 
 title: Aleksandr Ljamin
 tagline: 'Personal portfolio'
-description: 'Independent web designer and front-end web developer. Previously <a href="https://techstars.com" target="_blank">Techstars</a> and <a href="https://msdn.microsoft.com/en-au/microsoftstudentpartners.aspx" target="_blank">Microsoft Student Partners</a>.'
+description: 'Web designer and front-end web developer. Previously <a href="https://techstars.com" target="_blank">Techstars</a> and <a href="https://msdn.microsoft.com/en-au/microsoftstudentpartners.aspx" target="_blank">Microsoft Student Partners</a>.'
 
 github: https://github.com/alljamin
 linkedin: https://linkedin.com/in/alljamin

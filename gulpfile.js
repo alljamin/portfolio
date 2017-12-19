@@ -71,7 +71,7 @@ gulp.task('default', ['build'], function() {
     });
 
     gulp.watch(['_config.yml' , 
-                '*.html', '_layouts/*.*', 
+                '*.html', '_layouts/*.*', '_includes/*.*',
                 '_pages/*.*', '_assets/**/**/*.*'], 
                 ['rebuild']);
 });
