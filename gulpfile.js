@@ -13,7 +13,7 @@ var sass         = require('gulp-sass');
 var uglify       = require('gulp-uglify');
 
 gulp.task('clean', function() {
-    return del(['_site', '.publish', 'assets']);
+    return del(['_site', 'assets']);
 });
 
 gulp.task('build:scripts', function() {
@@ -37,7 +37,7 @@ gulp.task('build:styles', function() {
 });
 
 gulp.task('build:images', function() {
-    return gulp.src('_assets/img')
+    return gulp.src('_assets/img/**/**.*')
         .pipe(imagemin())
         .pipe(gulp.dest('assets/img'));
 });

@@ -3,7 +3,7 @@ layout: page
 title: Adelaide Startup Weekend 2017
 description: Powerwise power grid leveraging civil notification system
 date: 2017/02/25
-image: https://source.unsplash.com/random/?travel
+image: "/assets/img/startup-weekend/background.jpg"
 ---
 
 [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):

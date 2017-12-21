@@ -67,15 +67,17 @@ Good source for setting correct permissions [Node.js official docs](https://docs
 
 ## Workflow
 
-Gulp takes files from `_assets` directory (don't rename this directory) applies all the specified Gulp tasks, creates `assets` directory and copies optimized assets to this directory. 
+Here is what happens when you type `gulp` in terminal:
 
-Gulp triggers `jekyll build` and Jekyll grabs everything from `assets` directory and copies to `_site/assets` directory. 
+1. Gulp takes files from `_assets` directory (don't rename this directory) applies all the specified Gulp tasks, creates `assets` directory and copies optimized assets into this directory. 
 
-Deploying to Github Pages with `npm run deploy`.
+2. When all assets are built Gulp triggers `jekyll build` and Jekyll grabs everything from `assets` directory and copies to `_site/assets` directory. 
 
-All the changes are tracked by Gulp Watch (yes, even `_config.yml`) and applied straight away with live browser reloading.
+3. When Jekyll is built, Gulp executes a watch task and tracks changes (yes, even `_config.yml`) and applies them straight away with live browser reloading.
 
-For more information look into the contents of `gulpfile.js`.
+To push all changes to `master` and `_site` contents to `gh-pages` branches, `package.json` has a handy script called `deploy`. You can call it by `npm run deploy`. 
+
+For more information look into the contents of `gulpfile.js` and `package.json`.
 
 ## Extra
 
