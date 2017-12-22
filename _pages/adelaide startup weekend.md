@@ -6,10 +6,10 @@ date: 2017/02/25
 image: "/assets/img/startup-weekend/background.jpg"
 ---
 
-[Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
+Startup Weekend is a great chance to quickly test an idea and build an MVP. I have had a chance to be a part of the team who during three long days delivered a platform for leveraging power grind outages. The idea is based on the recent 
 
-  > Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+![logo exploration](/assets/img/startup-weekend/powerwise.png)
 
-It's an immensely useful tool and one we encourage you to use here with Hyde.
+![working hard](/assets/img/startup-weekend/work.jpg)
 
-Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
+Checkout the Powerwise project on [Github](https://github.com/Powerwise).

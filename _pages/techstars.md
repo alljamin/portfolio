@@ -1,9 +1,19 @@
 ---
 layout: page
 title: Techstars Adelaide Accelerator
-description: Design strategy for early stage startups
+description: Designing for early stage companies
 date: 2017/10/12
 image: "/assets/img/techstars/background.jpg"
 ---
 
-Techstars Adelaide Accelerator is 
+Techstars Adelaide Accelerator 2017 is the first APAC Techstars program. The main theme of this program is defence and security. This program is supported by such corporate partners as Boeing, Thales, Codan and SAAB. 10 startup companies were chosen to participate in the accelerator. I was amongst five associates who helped both local Techstars team and 10 startup companies with solving their challenges. Being a Design Associate I was responsible for creating print materials for Techstars for internal and public events. It was challenging, but rewarding to understand and then visualise complex product concepts. I started exploring the symbol for cybersecurity startup and presented founders with a few ideas - shown below. I also organised a Design Thinking session for all the founders explaining concepts of personas, empathy and usability on practice.
+
+![Nimis cybersecurity logo](/assets/img/techstars/nimis-logo.jpg)
+
+![Nimis cybersecurity business card](/assets/img/techstars/nimis-business-card.jpg)
+
+![Techstars demo day name badges](/assets/img/techstars/techstars-badges.jpg)
+
+![Techstars demo day booklet](/assets/img/techstars/booklet.jpg)
+
+![Techstars associates team](/assets/img/techstars/team.jpg)

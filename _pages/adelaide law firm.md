@@ -6,17 +6,15 @@ date: 2017/03/17
 image: "/assets/img/law-firm/background.jpg"
 ---
 
-A small law firm in Adelaide has introduced me to their company current technical challendges and asked for my opinion on how possibly I could help them with the resolution of these challenges.
+I was approached by a small law firm to help the company to overcome current technical challenges. The company never had an active system administrator so I had keep that in mind when proposing my solution. After doing research and interviewing company employees I was able to resolve the following issues:
+- Upgraded the Microsoft Office365 subscription tier to Business Premium what includes the Outlook
+- Organised the email migration from the local email server to Outlook 
+- Ensured the DNS works correctly
+- Renewed the domain name for the next year
+- Migrated data from local server file storage to OneDrive
+- Made all the VMs, what previously ran on the local ESXi server, to be accessible from local VMware Worstation 12
+- Upgraded RAM on all company laptops to 8GB
+- Introduced Linksys XAC1900 to handle all the wireless networking
+- Decomposed old router, modem, patch panel, server and enternet cables
 
-I started my research with observations and interviews with company employees. As my research progressed I was able to identify the following major points:
-1. Company is fully dependent on in-house out-dated hardware and all of the services operate through this hardware
-2. There is no active system administrator to maintain, troubleshoot or provide support
-3. Employees have never received IT training as such and would continue working by "trial and error" method
-
-I have proposed the following plan:
-- Decrease the dependency on in-house hardware to the bare minimum and migrate to the cloud
-- Upgrade in-house hardware
-- Recycle or re-purpose old electronics
-
-
-
+At first availability in the area this office is planned to be connected to NBN or if up/down speed will remain the same as it is with ADSL2+ now, then introduce fiber.

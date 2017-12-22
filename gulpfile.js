@@ -38,7 +38,21 @@ gulp.task('build:styles', function() {
 
 gulp.task('build:images', function() {
     return gulp.src('_assets/img/**/**.*')
-        .pipe(imagemin())
+        .pipe(imagemin([
+            imagemin.gifsicle({interlaced: true}),
+            imagemin.jpegtran({progressive: true}),
+            imagemin.optipng({optimizationLevel: 5}),
+            imagemin.svgo({
+                plugins: [
+                    {removeViewBox: true},
+                    {cleanupIDs: false}
+                ]
+            })
+        ], {
+            // show every optimized image
+            verbose: true
+        }))
+        .pipe(gulp.dest('_assets/img'))
         .pipe(gulp.dest('assets/img'));
 });
 
