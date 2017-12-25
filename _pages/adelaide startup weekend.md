@@ -6,10 +6,12 @@ date: 2017/02/25
 image: "/assets/img/startup-weekend/background.jpg"
 ---
 
-Startup Weekend is a great chance to quickly test an idea and build an MVP. I have had a chance to be a part of the team who during three long days delivered a platform for leveraging power grind outages. The idea is based on the recent 
+Startup Weekend is a hackthon held all over the world and bound to the particular theme. The length of this hackathon is 54 hours. Such a short period of time allows participants to quickly test an idea and build an MVP. I have had a chance to be a part of the team who, during three long days, delivered a platform for leveraging power grind outages. Thanks to my team - Derek, John and Paul, I have learnt a lot from you and look forward to build something again in the future.
 
 ![logo exploration](/assets/img/startup-weekend/powerwise.png)
 
 ![working hard](/assets/img/startup-weekend/work.jpg)
+
+![the team](/assets/img/startup-weekend/smart-city-award-winners.jpg)
 
 Checkout the Powerwise project on [Github](https://github.com/Powerwise).
