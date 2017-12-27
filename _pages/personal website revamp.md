@@ -2,6 +2,7 @@
 layout: page
 title: Personal website revamp
 description: A fresh look on my online presence
+tags: [jekyll, npm, cloudflare, portfolio]
 date: 2017/11/17
 image: "/assets/img/portfolio/background.jpg"
 ---

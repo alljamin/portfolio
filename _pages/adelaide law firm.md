@@ -2,6 +2,7 @@
 layout: page
 title: Adelaide law firm
 description: In-house infrastructure upgrade and data migration
+tags: [system administration, SME, office365, technology, upgrade]
 date: 2017/03/17
 image: "/assets/img/law-firm/background.jpg"
 ---

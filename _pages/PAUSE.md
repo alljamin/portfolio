@@ -2,6 +2,7 @@
 layout: page
 title: PAUSE magazine
 description: Transformation of student digital media source
+tags: [student life, universiy, digital, magazine, thesis, laurea uas]
 date: 2014/12/30
 image: "/assets/img/pause/background.jpg"
 ---

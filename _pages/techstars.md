@@ -2,6 +2,7 @@
 layout: page
 title: Techstars Adelaide Accelerator
 description: Designing for early stage companies
+tags: [startup companies, techstars, adelaide, defence, security]
 date: 2017/10/12
 image: "/assets/img/techstars/background.jpg"
 ---

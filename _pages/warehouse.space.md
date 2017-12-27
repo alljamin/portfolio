@@ -2,6 +2,7 @@
 layout: page
 title: Warehouse.space
 description: Making a truly responsive web resource
+tags: [warehouse, warehouse.space, responsive, website]
 date: 2016/02/17
 image: "/assets/img/warehouse.space/background.jpg"
 ---

@@ -12,16 +12,16 @@ layout: null
  <id>{{ site.url }}</id>
  <author>
    <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <twitter>{{ site.author.twitter }}</twitter>
  </author>
 
- {% for post in site.posts %}
+ {% for page in site.pages %}
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>{{ page.title }}</title>
+   <link href="{{ site.url }}{{ page.url }}"/>
+   <updated>{{ page.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ page.id }}</id>
+   <content type="html">{{ page.content | xml_escape }}</content>
  </entry>
  {% endfor %}
 
