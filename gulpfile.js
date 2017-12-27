@@ -49,7 +49,7 @@ gulp.task('build:images', function() {
                 ]
             })
         ], {
-            // show every optimized image
+            // show the name of every optimized image
             verbose: true
         }))
         .pipe(gulp.dest('_assets/img'))
@@ -85,7 +85,7 @@ gulp.task('default', ['build'], function() {
     });
 
     gulp.watch(['_config.yml' , 
-                '*.html', '_layouts/*.*', '_includes/*.*',
-                '_pages/*.*', '_assets/**/**/*.*'], 
+                '*.html', '_layouts/*.html', '_includes/*.html',
+                '_pages/*.md', '_assets/**/**/*.*'], 
                 ['rebuild']);
 });

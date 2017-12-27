@@ -6,9 +6,11 @@ date: 2014/12/30
 image: "/assets/img/pause/background.jpg"
 ---
 
-PAUSE magazine was founded in 2009 by students to shed some light on university life. Every year a new editor-in-chief would be chosen to lead the development and production of 2 issues. I was lucky enough to start contributing to the magazine as a volunteer for 4 months, until I was offered a position of an editor-in-chief. My responsibilities were:
+PAUSE magazine was founded in 2009 by students to shed some light on university life. Every year a new editor-in-chief would be chosen to lead the development and production of 2 issues. I was lucky enough to start contributing to the magazine as a volunteer for 4 months, until I was offered a position of an editor-in-chief. 
+
+My responsibilities were:
 - Work with lecturers of Creative Writing and Visual Communicaiton to motivate students to start contributing content to the magazine
-- Organise all the materials from the previous publications in one place
+- Organise all the materials from the previous publications in online public storage
 - Organise content and produce 2 digital magazine issues in Adobe InDesign
 - Create a development plan and recruit the next team of students
 
