@@ -15,6 +15,7 @@
   <meta name="twitter:site" content="@alljamin">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
   <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ "/assets/img/main.jpg" | prepend: site.baseurl }}{% endif %}" />
 
   {% if page.description %}
   <meta name="description" content="{{ page.description | escape }}">
