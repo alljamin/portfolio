@@ -2,7 +2,7 @@
 layout: page
 title: Adelaide Startup Weekend 2017
 description: Powerwise power grid leveraging civil notification system
-tags: [startup weekend, hackathon, adelaide, 2017]
+tags: [startup weekend, hackathon, adelaide]
 date: 2017/02/25
 image: "/assets/img/startup-weekend/background.jpg"
 ---
