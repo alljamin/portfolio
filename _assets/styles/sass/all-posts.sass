@@ -50,14 +50,24 @@
                 font-weight: 300;
                 font-style: italic;
 
+            @media (max-width: 768px) 
+                opacity: 1;
+                transition: none;
+                padding: 1rem;
+                background-color: rgb(68,108,179);
+
         &:hover
             &:before
                 background-color: rgb(68,108,179);
+                @media (max-width: 768px)
+                    background-color: rgba(0,0,0,.35);
             
             .project-content
                 opacity: 1;
                 transform: translate3d(0,-20px,0);
-            
+                @media (max-width: 768px)
+                    transform: none;
+
         .link
             position: absolute;
             top: 0;
