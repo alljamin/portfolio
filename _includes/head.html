@@ -5,7 +5,7 @@
 
   <meta property="og:type" content="{{ type }}">
   <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }} &middot; {{ site.tagline }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape}}{% endif %}" />
   <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ "/assets/img/main.jpg" | prepend: site.baseurl }}{% endif %}">
   <meta property="og:site_name" content="Aleksandr Ljamin - Personal Portfolio">
