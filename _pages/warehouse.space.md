@@ -2,12 +2,12 @@
 layout: page
 title: Warehouse.space
 description: Making a truly responsive web resource
-tags: [warehouse, warehouse.space, responsive, website]
+tags: [warehouse, warehouse.space, responsive, website, HTML5, CSS3, Gulp.js]
 date: 2016/02/17
 image: "/assets/img/warehouse.space/background.jpg"
 ---
 
-Warehouse.space is an innovative warehousing company, what provides self storage and vertical storage solutions all around the world. Leveraging hardware and software sides of the business Warehouse.space 
+Warehouse.space is an innovative warehousing company, what provides self storage and vertical storage solutions all around the world.
 
 I was invited to create a responsive website for the company. Warehouse.space founder had already some ideas on how website should look and feel, and purchased a static HTML5 template. The purchased template was my starting point.
 
