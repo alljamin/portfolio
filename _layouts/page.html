@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="page">
+  <div class="page-header" {% if page.image %} style="background-image: url('{{ page.image }}');" {% endif %}>
+    <h2 class="page-title">{{ page.title }}</h2>
+  </div>
+  <div class="project-description">
+    {{ content }}
+  </div>
+
+  <div class="page-navigation">
+      {% if page.previous.url %}
+      <a class="prev" href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; Previous project</a>
+      {% endif %}
+      {% if page.next.url %}
+      <a class="next" href="{{ page.next.url | prepend: site.baseurl }}">Next project &raquo;</a>
+      {% endif %}
+  </div>
+  
+
+</div>
+
+
