@@ -17,7 +17,7 @@ My responsibilities were:
 
 As I have completed my term at PAUSE I have decided to write my [thesis](https://www.theseus.fi/handle/10024/97926) based on all the valuable experience I have got. 
 
-Special thanks to Jari - head of marketing - for always being supportive and trusting me in my decisions.
+Special thanks to [Jari Wahlström](https://www.linkedin.com/in/jari-wahlstr%C3%B6m-96344a87/) - former head of marketing and communications - for always being supportive and trusting me in my decisions.
 
 <iframe src="https://e.issuu.com/embed.html#5126100/12083601" frameborder="0" allowfullscreen="" style="width:100%; height:500px;" class="embed-content"></iframe>
 
