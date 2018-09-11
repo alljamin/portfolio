@@ -4,7 +4,7 @@
  <title>Aleksandr Ljamin</title>
  <link href="alljamin.com/atom.xml" rel="self"/>
  <link href="alljamin.com/"/>
- <updated>2018-03-12T12:40:35+10:30</updated>
+ <updated>2018-09-11T23:10:10+09:30</updated>
  <id>alljamin.com</id>
  <author>
    <name></name>
@@ -29,7 +29,7 @@
 
 &lt;p&gt;As I have completed my term at PAUSE I have decided to write my &lt;a href=&quot;https://www.theseus.fi/handle/10024/97926&quot;&gt;thesis&lt;/a&gt; based on all the valuable experience I have got.&lt;/p&gt;
 
-&lt;p&gt;Special thanks to Jari - head of marketing - for always being supportive and trusting me in my decisions.&lt;/p&gt;
+&lt;p&gt;Special thanks to &lt;a href=&quot;https://www.linkedin.com/in/jari-wahlstr%C3%B6m-96344a87/&quot;&gt;Jari Wahlström&lt;/a&gt; - former head of marketing and communications - for always being supportive and trusting me in my decisions.&lt;/p&gt;
 
 &lt;iframe src=&quot;https://e.issuu.com/embed.html#5126100/12083601&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%; height:500px;&quot; class=&quot;embed-content&quot;&gt;&lt;/iframe&gt;
 
@@ -45,7 +45,7 @@
    <link href="alljamin.com/warehouse.space/"/>
    <updated>2016-02-17T00:00:00+10:30</updated>
    <id>alljamin.com/warehouse.space</id>
-   <content type="html">&lt;p&gt;Warehouse.space is an innovative warehousing company, what provides self storage and vertical storage solutions all around the world.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Warehouse.space is an innovative warehousing company, what provides self-storage and vertical storage solutions all around the world.&lt;/p&gt;
 
 &lt;p&gt;I was invited to create a responsive website for the company. Warehouse.space founder had already some ideas on how website should look and feel, and purchased a static HTML5 template. The purchased template was my starting point.&lt;/p&gt;
 
@@ -56,8 +56,31 @@
 &lt;p&gt;Check out this live project here: &lt;a href=&quot;https://warehouse.space&quot;&gt;https://warehouse.space&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/warehouse.space/mobile.jpg&quot; alt=&quot;mobile view of the web resource&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Distillery Co</title>
+   <link href="alljamin.com/the-distillery-co/"/>
+   <updated>2016-05-17T00:00:00+09:30</updated>
+   <id>alljamin.com/the distillery co</id>
+   <content type="html">&lt;p&gt;I have contracted for Adelaide based digital agency - &lt;a href=&quot;https://thedistillery.co/&quot;&gt;The Distillery Co&lt;/a&gt; - during the May of 2016 as a front-end web developer.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;My main task was to convert static PDF mockups for &lt;a href=&quot;https://web.archive.org/web/20180811223753/https://www.scotch.sa.edu.au/&quot;&gt;Scotch College website&lt;/a&gt; into SCSS, JavaScript and HTML5. This web reource is created on Drupal 6 - I had to touch a bit of PHP as well.&lt;/p&gt;
+
+&lt;p&gt;Here are the examples of completed work.&lt;/p&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/W9aWYdryflo&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JCSyvrKKjAs&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hlni2CPRJXA&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
@@ -85,35 +108,43 @@
    <link href="alljamin.com/adelaide-law-firm/"/>
    <updated>2017-03-17T00:00:00+10:30</updated>
    <id>alljamin.com/adelaide law firm</id>
-   <content type="html">&lt;p&gt;I was approached by a small law firm to help the company to overcome current technical challenges. The company never had an active system administrator and unfortunetely does not have budget to keep one full-time, that means that my proposed solution should:&lt;/p&gt;
+   <content type="html">&lt;p&gt;I was approached by a small law firm to help the company to overcome current technical challenges. The company never had an active system administrator and unfortunately does not have a budget to keep one full-time, that means that my proposed solution should:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Rely on as little on-premises hardware as possible.&lt;/li&gt;
-  &lt;li&gt;Have 24/7 professional customer support.&lt;/li&gt;
-  &lt;li&gt;Be remotely maintenable.&lt;/li&gt;
-  &lt;li&gt;Have a gradual learning curve to decrease possible business technical outages.&lt;/li&gt;
-  &lt;li&gt;Outperform current technology stack.&lt;/li&gt;
+  &lt;li&gt;Rely on as little on-premises hardware as possible&lt;/li&gt;
+  &lt;li&gt;Have 24/7 professional customer support&lt;/li&gt;
+  &lt;li&gt;Be remotely maintainable&lt;/li&gt;
+  &lt;li&gt;Have a gradual usage learning curve to decrease possible business technical outages&lt;/li&gt;
+  &lt;li&gt;Outperform current infrastructure.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are just a few issues what company faced regularly:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Local email server would stop responding. Former sys admin needed to be contacted in order to resolve the issue - the process can easily take months.&lt;/li&gt;
+  &lt;li&gt;No one could see and manage each other calendars. There was a local Windows XP ESXi VM with a calendar software what can only be accessible by one person at a time.&lt;/li&gt;
+  &lt;li&gt;File sharing and storage was on a separate Windows XP VM on a same local server with a maximum storage space of 150GB. The server could only be upgraded to the maximum of 500GB SAS drives. Two out 5 drives were failing.&lt;/li&gt;
+  &lt;li&gt;No WiFi available. Employees were working on laptops connected with a wire to a switch, not being able to move in the office.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;After interviewing company employees and researching named issues I was able to resolve the following matters:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Upgraded the Microsoft Office365 subscription tier to Business Premium what includes Outlook.&lt;/li&gt;
+  &lt;li&gt;Created a shared calendar what each employee can see, edit and access simultaneously.&lt;/li&gt;
   &lt;li&gt;Organised the email migration from the local email server to Outlook.&lt;/li&gt;
-  &lt;li&gt;Worked closely with Microsoft Office365 technicians to troubleshoot platform perfomance and email retention policy issues.&lt;/li&gt;
-  &lt;li&gt;Updated DNS records to point to Microsoft services.&lt;/li&gt;
+  &lt;li&gt;Worked closely with Microsoft Office365 technicians to troubleshoot platform performance and email retention policy issues.&lt;/li&gt;
+  &lt;li&gt;Updated DNS records to point to Microsoft Office 365 Outlook services.&lt;/li&gt;
   &lt;li&gt;Purchased online hosting.&lt;/li&gt;
   &lt;li&gt;Renewed the domain name for the next year.&lt;/li&gt;
   &lt;li&gt;Migrated data from local server file storage to OneDrive.&lt;/li&gt;
-  &lt;li&gt;Made all the VMs, what previously ran on the local ESXi server, to be accessible from local VMware Worstation 12.&lt;/li&gt;
+  &lt;li&gt;Made all the ESXi VMs be accessible from local VMware Workstation 12.&lt;/li&gt;
   &lt;li&gt;Upgraded RAM on all company laptops to 8GB.&lt;/li&gt;
-  &lt;li&gt;Introduced Linksys XAC1900 to handle all the wireless networking.&lt;/li&gt;
-  &lt;li&gt;Submitted old router, modem, patch panel, server and enternet cables to the nearest electronics recycling facility.&lt;/li&gt;
+  &lt;li&gt;Introduced &lt;a href=&quot;https://www.linksys.com/au/p/P-XAC1900/&quot;&gt;Linksys XAC1900&lt;/a&gt; to handle all the wireless networking.&lt;/li&gt;
+  &lt;li&gt;Submitted old router, modem, patch panel, server and internet cables to the nearest electronics recycling facility.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;A proposed future plan covers:&lt;/p&gt;
+&lt;p&gt;Further, the company founder decided to close his main office and move operations to home office. Home office had to accommodate the new changes in the business. Based on my advice the following actions were performed:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Upgrade current web resource from outdated Joomla 2.5 to latest Joomla or Wordpress.&lt;/li&gt;
-  &lt;li&gt;Introduce concepts of cybersecurity into company daily business operations.&lt;/li&gt;
-  &lt;li&gt;Connect to NBN at first availability in the area. If NBN will have the same up/down speed as it is with ADSL2+ now, then introduce optical fiber to the premises.&lt;/li&gt;
+  &lt;li&gt;Convert former employees Office365 Outlook accounts into Shared Mailboxes and remove their licenses. This gave the founder a chance to be able to receive emails from all his former employees’ emails and respond from his email address. This action also reduced the number of active Office365 subscriptions narrowing it down just to one - significantly decreasing the running expenses. I found this &lt;a href=&quot;https://support.office.com/en-us/article/remove-a-former-employee-from-office-365-44d96212-4d90-4027-9aa9-a95eddb367d1&quot;&gt;Microsoft KB article&lt;/a&gt; particulary useful.&lt;/li&gt;
+  &lt;li&gt;In order to bring &lt;a href=&quot;https://www.lexmark.com/en_nz/printer/4834/Lexmark-X656de&quot;&gt;Lexmark x656de&lt;/a&gt; MFP online I had to setup powerline network with two &lt;a href=&quot;https://www.tp-link.com/au/products/details/cat-18_TL-PA7010P-KIT.html&quot;&gt;TP-Link TL-PA7010P Gigabit Passthrough&lt;/a&gt; adapters.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -146,7 +177,7 @@
    <link href="alljamin.com/personal-website-revamp/"/>
    <updated>2017-11-17T00:00:00+10:30</updated>
    <id>alljamin.com/personal website revamp</id>
-   <content type="html">&lt;p&gt;So the day finally came and the new version of my portfolio is up and running! Yay!&lt;/p&gt;
+   <content type="html">&lt;p&gt;So, the day finally came and the new version of my portfolio is up and running! Yay!&lt;/p&gt;
 
 &lt;p&gt;My previous portfolio was missing the dynamic generation of HTML, so that all the pages and links had to be created every time by hand. That is not the most efficient way of doing things.&lt;/p&gt;
 
@@ -162,9 +193,30 @@
   &lt;li&gt;&lt;a href=&quot;https://cloudflare.com&quot;&gt;Cloudflare&lt;/a&gt;: SSL, DNSSEC, CDN, HTTP/2, Automatic HTTP to HTTPS rewrites&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Combining everything together, and spending as little as AUD12, I have a fully functional web resource, what presents my online presence in a modern and optimised way.&lt;/p&gt;
+&lt;p&gt;Combining everything together, and spending as little as $12, I have a fully functional web resource.&lt;/p&gt;
 
 &lt;p&gt;You can find the detailed instructions on you can build something for yourself with my project as a starting point on my &lt;a href=&quot;https://github.com/alljamin/portfolio&quot;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pack and Dispatch</title>
+   <link href="alljamin.com/pack-and-dispatch/"/>
+   <updated>2018-03-17T00:00:00+10:30</updated>
+   <id>alljamin.com/pack and dispatch</id>
+   <content type="html">&lt;p&gt;From the previous positive working experience with the founder of &lt;a href=&quot;% post_url warehouse.space %&quot;&gt;warehouse.space&lt;/a&gt; I accepted the offer to create another website - &lt;a href=&quot;https://packdispatch.com&quot;&gt;packdispatch.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At the beginning of the project I have inherited a legacy codebase, which I re-wrote into the latest HTML5 and &lt;a href=&quot;https://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; with a help of &lt;a href=&quot;https://gulpjs.com/&quot;&gt;Gulp.js&lt;/a&gt;. On every modification all styles, scripts and images are ran through the Gulp “pipes” to serve all the assets to the client in the most optimal way.&lt;/p&gt;
+
+&lt;p&gt;The main component of this one-page website is the onboarding form. I have created this form with the help of PHP and AJAX along with adding some great floating labels CSS animations.&lt;/p&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NXVTP0Sl2No&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The secondary component of this page is the Freshdesk plugin for online helpdesk and support. Relying on not-so structured at the time documentation I have embedded Freshdesk plugin into the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/packdispatch/freshdesk.png&quot; alt=&quot;Freshdesk embedded plugin&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
