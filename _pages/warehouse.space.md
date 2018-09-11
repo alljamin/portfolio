@@ -7,7 +7,7 @@ date: 2016/02/17
 image: "/assets/img/warehouse.space/background.jpg"
 ---
 
-Warehouse.space is an innovative warehousing company, what provides self storage and vertical storage solutions all around the world.
+Warehouse.space is an innovative warehousing company, what provides self-storage and vertical storage solutions all around the world.
 
 I was invited to create a responsive website for the company. Warehouse.space founder had already some ideas on how website should look and feel, and purchased a static HTML5 template. The purchased template was my starting point.
 
@@ -18,5 +18,3 @@ I have also experimented with introduction of flat-file CMS into the project, li
 Check out this live project here: <https://warehouse.space>. 
 
 ![mobile view of the web resource](/assets/img/warehouse.space/mobile.jpg)
-
-![]()

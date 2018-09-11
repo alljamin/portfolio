@@ -8,18 +8,19 @@
     "deploy": "git subtree push --prefix _site origin gh-pages && git push"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.24.5",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.1.0",
-    "gulp-rename": "^1.2.2",
+    "gulp-rename": "^1.3.0",
     "gulp-run": "^1.7.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-shell": "^0.6.5",
-    "gulp-uglify": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
+    "minimatch": "^3.0.4",
     "run-sequence": "^2.2.1"
   },
   "repository": {
@@ -31,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/alljamin/portfolio/issues"
   },
-  "homepage": "https://github.com/alljamin/portfolio#readme"
+  "homepage": "https://github.com/alljamin/portfolio#readme",
+  "dependencies": {}
 }
