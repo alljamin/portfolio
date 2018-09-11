@@ -5,11 +5,19 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
  <title>{{ site.title }}</title>
  <link href="{{ site.url }}/atom.xml" rel="self"/>
  <link href="{{ site.url }}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}</id>
+=======
+ <title>Aleksandr Ljamin</title>
+ <link href="alljamin.com/atom.xml" rel="self"/>
+ <link href="alljamin.com/"/>
+ <updated>2018-03-12T12:40:35+10:30</updated>
+ <id>alljamin.com</id>
+>>>>>>> parent of ce3d240... updated dependecies and added new projects
  <author>
    <name>{{ site.author.name }}</name>
    <twitter>{{ site.author.twitter }}</twitter>
@@ -17,6 +25,7 @@ layout: null
 
  {% for page in site.pages %}
  <entry>
+<<<<<<< HEAD
    <title>{{ page.title }}</title>
    <link href="{{ site.url }}{{ page.url }}"/>
    <updated>{{ page.date | date_to_xmlschema }}</updated>
@@ -24,5 +33,162 @@ layout: null
    <content type="html">{{ page.content | xml_escape }}</content>
  </entry>
  {% endfor %}
+=======
+   <title>PAUSE magazine</title>
+   <link href="alljamin.com/PAUSE/"/>
+   <updated>2014-12-30T00:00:00+10:30</updated>
+   <id>alljamin.com/PAUSE</id>
+   <content type="html">&lt;p&gt;PAUSE magazine was founded in 2009 by students to shed some light on university life. Every year a new editor-in-chief would be chosen to lead the development and production of 2 issues. I was lucky enough to start contributing to the magazine as a volunteer for 4 months, until I was offered a position of an editor-in-chief.&lt;/p&gt;
+
+&lt;p&gt;My responsibilities were:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Work with lecturers of Creative Writing and Visual Communicaiton to motivate students to start contributing content to the magazine&lt;/li&gt;
+  &lt;li&gt;Organise all the materials from the previous publications in online public storage&lt;/li&gt;
+  &lt;li&gt;Organise content and produce 2 digital magazine issues in Adobe InDesign&lt;/li&gt;
+  &lt;li&gt;Create a development plan and recruit the next team of students&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As I have completed my term at PAUSE I have decided to write my &lt;a href=&quot;https://www.theseus.fi/handle/10024/97926&quot;&gt;thesis&lt;/a&gt; based on all the valuable experience I have got.&lt;/p&gt;
+
+&lt;p&gt;Special thanks to Jari - head of marketing - for always being supportive and trusting me in my decisions.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://e.issuu.com/embed.html#5126100/12083601&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%; height:500px;&quot; class=&quot;embed-content&quot;&gt;&lt;/iframe&gt;
+
+&lt;iframe src=&quot;https://e.issuu.com/embed.html#5126100/12083770&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width:100%; height:500px;&quot; class=&quot;embed-content&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/pause/poster.jpg&quot; alt=&quot;poster&quot; /&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Warehouse.space</title>
+   <link href="alljamin.com/warehouse.space/"/>
+   <updated>2016-02-17T00:00:00+10:30</updated>
+   <id>alljamin.com/warehouse.space</id>
+   <content type="html">&lt;p&gt;Warehouse.space is an innovative warehousing company, what provides self storage and vertical storage solutions all around the world.&lt;/p&gt;
+
+&lt;p&gt;I was invited to create a responsive website for the company. Warehouse.space founder had already some ideas on how website should look and feel, and purchased a static HTML5 template. The purchased template was my starting point.&lt;/p&gt;
+
+&lt;p&gt;Company founder and I together, we have went through multiple iterations both from the design and codebase perspective. As the number of static pages started to grow, for example with introduction of 7 different languages to the UI, I have implemented &lt;a href=&quot;https://gulpjs.com/&quot;&gt;Gulp.js&lt;/a&gt; integration to handle all the build processes including CSS minification, JS minification and live browser reloading with &lt;a href=&quot;https://www.browsersync.io/&quot;&gt;BrowserSync&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have also experimented with introduction of flat-file CMS into the project, like &lt;a href=&quot;https://sitecake.com/&quot;&gt;SiteCake&lt;/a&gt;, &lt;a href=&quot;https://getgrav.org/&quot;&gt;Grav&lt;/a&gt; and &lt;a href=&quot;https://pagekit.com&quot;&gt;Pagekit&lt;/a&gt;, but based on my experience at the time - the migration from current static multipage web resource to one of these platforms was not fully supported. The transition to CMS is inevitable, that is why I am continuing to search for the suitable content management solution.&lt;/p&gt;
+
+&lt;p&gt;Check out this live project here: &lt;a href=&quot;https://warehouse.space&quot;&gt;https://warehouse.space&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/warehouse.space/mobile.jpg&quot; alt=&quot;mobile view of the web resource&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Adelaide Startup Weekend 2017</title>
+   <link href="alljamin.com/adelaide-startup-weekend/"/>
+   <updated>2017-02-25T00:00:00+10:30</updated>
+   <id>alljamin.com/adelaide startup weekend</id>
+   <content type="html">&lt;p&gt;Startup Weekend is a 54 hours hackathon held all over the world and bound to the particular theme. Such a short period of time allows participants to quickly test an idea and build an MVP.&lt;/p&gt;
+
+&lt;p&gt;I have had a chance to be a part of the team who, during three long days, delivered a platform for leveraging power grind outages. Thanks to my team - Derek, John and Paul, I have learnt a lot from you and look forward to build something again in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/startup-weekend/powerwise.png&quot; alt=&quot;logo exploration&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/startup-weekend/work.jpg&quot; alt=&quot;working hard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/startup-weekend/smart-city-award-winners.jpg&quot; alt=&quot;the team&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Checkout the Powerwise project on &lt;a href=&quot;https://github.com/Powerwise&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Adelaide law firm</title>
+   <link href="alljamin.com/adelaide-law-firm/"/>
+   <updated>2017-03-17T00:00:00+10:30</updated>
+   <id>alljamin.com/adelaide law firm</id>
+   <content type="html">&lt;p&gt;I was approached by a small law firm to help the company to overcome current technical challenges. The company never had an active system administrator and unfortunetely does not have budget to keep one full-time, that means that my proposed solution should:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rely on as little on-premises hardware as possible.&lt;/li&gt;
+  &lt;li&gt;Have 24/7 professional customer support.&lt;/li&gt;
+  &lt;li&gt;Be remotely maintenable.&lt;/li&gt;
+  &lt;li&gt;Have a gradual learning curve to decrease possible business technical outages.&lt;/li&gt;
+  &lt;li&gt;Outperform current technology stack.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After interviewing company employees and researching named issues I was able to resolve the following matters:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Upgraded the Microsoft Office365 subscription tier to Business Premium what includes Outlook.&lt;/li&gt;
+  &lt;li&gt;Organised the email migration from the local email server to Outlook.&lt;/li&gt;
+  &lt;li&gt;Worked closely with Microsoft Office365 technicians to troubleshoot platform perfomance and email retention policy issues.&lt;/li&gt;
+  &lt;li&gt;Updated DNS records to point to Microsoft services.&lt;/li&gt;
+  &lt;li&gt;Purchased online hosting.&lt;/li&gt;
+  &lt;li&gt;Renewed the domain name for the next year.&lt;/li&gt;
+  &lt;li&gt;Migrated data from local server file storage to OneDrive.&lt;/li&gt;
+  &lt;li&gt;Made all the VMs, what previously ran on the local ESXi server, to be accessible from local VMware Worstation 12.&lt;/li&gt;
+  &lt;li&gt;Upgraded RAM on all company laptops to 8GB.&lt;/li&gt;
+  &lt;li&gt;Introduced Linksys XAC1900 to handle all the wireless networking.&lt;/li&gt;
+  &lt;li&gt;Submitted old router, modem, patch panel, server and enternet cables to the nearest electronics recycling facility.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A proposed future plan covers:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Upgrade current web resource from outdated Joomla 2.5 to latest Joomla or Wordpress.&lt;/li&gt;
+  &lt;li&gt;Introduce concepts of cybersecurity into company daily business operations.&lt;/li&gt;
+  &lt;li&gt;Connect to NBN at first availability in the area. If NBN will have the same up/down speed as it is with ADSL2+ now, then introduce optical fiber to the premises.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Techstars Adelaide Accelerator</title>
+   <link href="alljamin.com/techstars/"/>
+   <updated>2017-10-12T00:00:00+10:30</updated>
+   <id>alljamin.com/techstars</id>
+   <content type="html">&lt;p&gt;Techstars Adelaide Accelerator 2017 is the first APAC Techstars program. The main theme of this program is defence and security. This program is supported by such corporate partners as Boeing, Thales, Codan and SAAB. 10 startup companies were chosen to participate in the accelerator.&lt;/p&gt;
+
+&lt;p&gt;I was amongst five associates who helped both local Techstars team and 10 startup companies with solving their design challenges. By being a Design Associate I was responsible for creating print materials for Techstars for internal and public events. I was always available for any company, participating in the accelerator, to approach me and to ask for help with one or another matter. It was challenging, but rewarding to understand and then visualise complex product and service concepts.&lt;/p&gt;
+
+&lt;p&gt;I have taken every opportunity to initiate improvement in the general approach towards understanding and applying design in the company. For example, I started exploring the symbol for cybersecurity company and presented the founders with a few ideas - shown below. I also organised a &lt;a href=&quot;https://dschool-old.stanford.edu/groups/designresources/wiki/4dbb2/the_wallet_project.html&quot;&gt;The Wallet project&lt;/a&gt; workshop for all the founders explaining concepts of personas, empathy and usability on practice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/techstars/nimis-logo.jpg&quot; alt=&quot;Nimis cybersecurity logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/techstars/nimis-business-card.jpg&quot; alt=&quot;Nimis cybersecurity business card&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/techstars/techstars-badges.jpg&quot; alt=&quot;Techstars demo day name badges&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/techstars/booklet.jpg&quot; alt=&quot;Techstars demo day booklet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/techstars/team.jpg&quot; alt=&quot;Techstars associates team&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Personal website revamp</title>
+   <link href="alljamin.com/personal-website-revamp/"/>
+   <updated>2017-11-17T00:00:00+10:30</updated>
+   <id>alljamin.com/personal website revamp</id>
+   <content type="html">&lt;p&gt;So the day finally came and the new version of my portfolio is up and running! Yay!&lt;/p&gt;
+
+&lt;p&gt;My previous portfolio was missing the dynamic generation of HTML, so that all the pages and links had to be created every time by hand. That is not the most efficient way of doing things.&lt;/p&gt;
+
+&lt;p&gt;This time I decided to give a closer look on my technology stack and came up with the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://brew.sh&quot;&gt;Homebrew&lt;/a&gt;: separate local version of Ruby, eliminate dangerous &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt; commands&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://npmjs.com&quot;&gt;NPM&lt;/a&gt; packages: gulp, vendor autoprefix, proper SASS compilation, CSS minification, file rename, browser live reload, image minification&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; (Liquid, Front Matter): static HTML generation, relative urls&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;GIT&lt;/a&gt;: version control&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;: hosting&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://namecheap.com&quot;&gt;Namecheap&lt;/a&gt;: domain registar, Whois Guard&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloudflare.com&quot;&gt;Cloudflare&lt;/a&gt;: SSL, DNSSEC, CDN, HTTP/2, Automatic HTTP to HTTPS rewrites&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Combining everything together, and spending as little as AUD12, I have a fully functional web resource, what presents my online presence in a modern and optimised way.&lt;/p&gt;
+
+&lt;p&gt;You can find the detailed instructions on you can build something for yourself with my project as a starting point on my &lt;a href=&quot;https://github.com/alljamin/portfolio&quot;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+>>>>>>> parent of ce3d240... updated dependecies and added new projects
 
 </feed>
