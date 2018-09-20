@@ -8,7 +8,7 @@ var gulp         = require('gulp');
 var imagemin     = require('gulp-imagemin');
 var rename       = require('gulp-rename');
 var run          = require('gulp-run');
-var runSequence  = require('run-sequence');
+// var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var uglify       = require('gulp-uglify');
 
@@ -56,25 +56,30 @@ gulp.task('build:images', function() {
         .pipe(gulp.dest('assets/img'));
 });
 
-gulp.task('build:jekyll', function(callback) {
+gulp.task('build:jekyll', function() {
     // --incremental regeneration doesn't update front matter
-    var shellCommand = 'jekyll build';
-    
-    return gulp.src('')
-        .pipe(run(shellCommand));
+    // var shellCommand = 'jekyll build';
 
-    callback();
+    return run('jekyll build').exec()
+        // .pipe(gulp.dest(''))
+    ;
+
+    // return gulp.src('')
+    //     .pipe(run('jekyll build'));
 });
 
-gulp.task('build', function(callback) {
-    return runSequence('clean', ['build:scripts', 'build:styles', 'build:images'], 'build:jekyll', callback)
-});
+gulp.task('build', 
+    gulp.series('clean', 
+        gulp.parallel('build:scripts', 'build:styles', 'build:images'), 
+        'build:jekyll'
+    )
+);
 
-gulp.task('rebuild', ['build'], function(){
+gulp.task('rebuild', gulp.series(['build'], function(){
     browserSync.reload();
-});
+}));
 
-gulp.task('default', ['build'], function() {
+gulp.task('default', gulp.series(['build'], function() {
 
     // maybe important (injectChanges: true)
     browserSync.init({
@@ -87,5 +92,5 @@ gulp.task('default', ['build'], function() {
     gulp.watch(['_config.yml' , 
                 '*.html', '_layouts/*.html', '_includes/*.html',
                 '_pages/*.md', '_assets/**/**/*.*'], 
-                ['rebuild']);
-});
+                gulp.series('rebuild'));
+}));

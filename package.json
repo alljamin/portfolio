@@ -8,9 +8,9 @@
     "deploy": "git subtree push --prefix _site origin gh-pages && git push"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.5",
+    "browser-sync": "^2.24.7",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.1.0",
