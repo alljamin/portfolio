@@ -7,9 +7,9 @@ date: 2018/08/26
 image: "/assets/img/peregrine/otr-background.jpg"
 ---
 
-[Peregrine Corporation](https://www.peregrine.com.au/) is South Australia (SA) largest privately-owned retail company. The company holds various major businesses under its umbrella. One of the South Australia recognised brands is [OTR](https://ontherun.com.au) - the concept of a convenience store combined with the fuel station.
+[Peregrine Corporation](https://www.peregrine.com.au/) is South Australia (SA) largest privately-owned retail company. The company holds various major brands under its umbrella. One of the South Australia most recognised brands is [OTR](https://ontherun.com.au) - the concept of a convenience store combined with the fuel station.
 
-After contracting for OTR marketing for two months I was given a chance to join a OTR marketing team as a graphic designer.
+After contracting for OTR marketing team for two months I was given a chance to join a OTR marketing team as a graphic designer.
 
 ### Digital
 
