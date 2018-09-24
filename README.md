@@ -4,7 +4,9 @@ The main aim of this project was to find a best way to capture my work and prese
 
 ## Contents
 
-- [Usage](#usage)
+- [Getting started](#getting-started)
+- [Windows](#windows)
+- [MacOS](#macos)
   - [Updating installed tools](#updating-installed-tools)
   - [Clean install](#clean-install)
     - [Git](#git)
@@ -15,9 +17,19 @@ The main aim of this project was to find a best way to capture my work and prese
 - [Author](#author)
 - [Ownership](#ownership)
 
-## Usage
+## Getting started
 
-These instructions only cover macOS 10.13.1 and later. Windows users are encouraged to update this readme via pull requests. These are not universal intructions and perhaps some advanced users may find better ways setup the project.
+The instructions below cover Windows 10 and MacOS 10.13.1, and later versions.
+
+## Windows
+
+1. Install [RubyInstaller](https://rubyinstaller.org/downloads/)
+2. Run `gem jekyll install bundler`
+3. Install [Node.js](https://nodejs.org/en/)
+4. Run `npm install`
+5. Run `npm install -g gulp-cli`
+
+## MacOS
 
 ### Updating installed tools
 
