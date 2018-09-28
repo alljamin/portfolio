@@ -1,5 +1,6 @@
 'use strict';
 
+// var critical     = require('critical');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync  = require('browser-sync').create();
 var concat       = require('gulp-concat');
@@ -8,9 +9,9 @@ var gulp         = require('gulp');
 var imagemin     = require('gulp-imagemin');
 var rename       = require('gulp-rename');
 var run          = require('gulp-run');
-// var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var uglify       = require('gulp-uglify');
+// var fs           = require('fs');
 
 gulp.task('clean', function() {
     return del(['_site', 'assets']);
@@ -60,12 +61,8 @@ gulp.task('build:jekyll', function() {
     // --incremental regeneration doesn't update front matter
     // var shellCommand = 'jekyll build';
 
-    return run('jekyll build').exec()
-        // .pipe(gulp.dest(''))
-    ;
+    return run('jekyll build').exec();
 
-    // return gulp.src('')
-    //     .pipe(run('jekyll build'));
 });
 
 gulp.task('build', 
