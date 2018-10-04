@@ -10,7 +10,7 @@ exclude: ["_assets", "gulpfile.js", "node_modules", "package.json", "package-loc
 
 title: Aleksandr Ljamin
 tagline: 'Personal portfolio'
-description: 'Independent web designer and front-end web developer'
+description: 'Web designer and front-end web developer'
 
 github: https://github.com/alljamin
 twitter: https://twitter.com/alljamin

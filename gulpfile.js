@@ -1,6 +1,6 @@
 'use strict';
 
-// var critical     = require('critical');
+var critical     = require('critical');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync  = require('browser-sync').create();
 var concat       = require('gulp-concat');
@@ -65,10 +65,49 @@ gulp.task('build:jekyll', function() {
 
 });
 
+gulp.task('critical', function(done) {
+    critical.generate({
+        inline: true,
+        base: '_site/',
+        src: 'index.html',
+        css: ['assets/styles/main.min.css'],
+        dimensions: [{
+            height: 200,
+            width: 500
+        }, {
+            height: 900,
+            width: 1200
+        }],
+        dest: 'index.html',
+        minify: true,
+        ignore: ['@font-face',/url\(/]
+    })
+    done();
+});
+
+// gulp.task('critical', function () {
+//     return gulp.src('_site/**/*.html', {base: './'})
+//         .pipe(
+//             critical({
+//                 base: '_site/',
+//                 inline: true,
+//                 css: ['assets/styles/main.min.css'],
+//                 dimensions: [
+//                     {height: 720, width: 1280}
+//                 ],
+//                 minify: true
+//             })
+//         )
+//         .on('error', function(err) { 
+//             gutil.log(gutil.colors.red(err.message)); 
+//         })
+//         .pipe(gulp.dest('./'));
+// });
+
 gulp.task('build', 
     gulp.series('clean', 
         gulp.parallel('build:scripts', 'build:styles', 'build:images'), 
-        'build:jekyll'
+        'build:jekyll', 'critical'
     )
 );
 

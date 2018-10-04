@@ -43,6 +43,7 @@ Another important involvement of mine was the [OTRGive](http://www.ontherun.com.
 
 ![OTRGive brochure](/assets/img/peregrine/brochure-open.jpg)
 ![OTRGive table tops](/assets/img/peregrine/table-top-trifolds.jpg)
+![OTRGive flyers and brochure](/assets/img/peregrine/otr-give-collage.jpg)
 ![images of tri-fold](/assets/img/peregrine/otrgive-flyers-badges.jpg)
 ![front door sticker](/assets/img/peregrine/front-door-sticker.jpg)
 ![OTRGive staff member badge surround](/assets/img/peregrine/otrgive-namebadge.jpg)
