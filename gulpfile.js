@@ -85,25 +85,6 @@ gulp.task('critical', function(done) {
     done();
 });
 
-// gulp.task('critical', function () {
-//     return gulp.src('_site/**/*.html', {base: './'})
-//         .pipe(
-//             critical({
-//                 base: '_site/',
-//                 inline: true,
-//                 css: ['assets/styles/main.min.css'],
-//                 dimensions: [
-//                     {height: 720, width: 1280}
-//                 ],
-//                 minify: true
-//             })
-//         )
-//         .on('error', function(err) { 
-//             gutil.log(gutil.colors.red(err.message)); 
-//         })
-//         .pipe(gulp.dest('./'));
-// });
-
 gulp.task('build', 
     gulp.series('clean', 
         gulp.parallel('build:scripts', 'build:styles', 'build:images'), 
