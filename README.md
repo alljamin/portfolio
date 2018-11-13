@@ -55,20 +55,19 @@ Following the order of instructions is recommended to prevent possible errors.
 
 1. Install command line tools `xcode-select --install`
 2. Install [Homebrew](https://brew.sh/)
-3. `export PATH=/usr/local/bin:$PATH`
-4. `launchctl setenv PATH “/usr/local/bin:$PATH”`
-3. Install separate from OS version of Ruby: `brew install ruby`
-4. Install Jekyll: `gem install jekyll` (no need to use `sudo`)
-5. Update all system gems: `gem update --system`
-
-Good source for troubleshooting: [Jekyllrb official docs](https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011)
+3. Install rbenv `brew install rbenv`
+4. Make rbenv run everytime terminal is open `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+5. Install Ruby with rbenv `rbenv install 2.5.1`
+6. Switch from system Ruby to rbenv `rbenv global 2.5.1`
+7. Install Jekyll: `gem install jekyll` (no need to use `sudo`)
+8. Update all system gems: `gem update --system`
 
 #### Gulp.js
 
 1. Install [Node.js](https://nodejs.org/en/).
    1. `npm config get prefix` should return `/usr/local` if it returns just `/usr` check [this](https://docs.npmjs.com/getting-started/fixing-npm-permissions#option-2-change-npms-default-directory-to-another-directory) before proceeding further.
-   2. ` sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}` changing the ownership of lib/node_modules, bin, and share folders.
-2. Install [Gulp.js](https://gulpjs.com/) globally by running `npm install gulp-cli -g`.
+   2. `sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}` changing the ownership of lib/node_modules, bin, and share folders.
+2. Install [Gulp.js CLI](https://gulpjs.com/) globally by running `npm install gulp-cli -g`.
 3. Install all dependencies specified in `package.json` by running `npm install`.
 4. Check for updates for all devDependecies by installing [npm-check-updates].(https://www.npmjs.com/package/npm-check-updates) package `npm install npm-check-updates -g`
    1. Run `ncu` to see what updates are available.
