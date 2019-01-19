@@ -11,7 +11,7 @@ Startup Weekend is a 54 hours hackathon held all over the world and bound to the
 
 I have had a chance to be a part of the team who, during three long days, delivered a platform for leveraging power grind outages. Thanks to my team - Derek, John and Paul, I have learnt a lot from you and look forward to build something again in the future.
 
-![logo exploration](/assets/img/startup-weekend/powerwise.png)
+![logo exploration](/assets/img/startup-weekend/powerwise.jpg)
 
 ![working hard](/assets/img/startup-weekend/work.jpg)
 

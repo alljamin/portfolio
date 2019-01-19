@@ -19,4 +19,4 @@ The main component of this one-page website is the onboarding form. I have creat
 
 The secondary component of this page is the Freshdesk plugin for online helpdesk and support. Relying on not-so structured at the time documentation I have embedded Freshdesk plugin into the page.
 
-![Freshdesk embedded plugin](/assets/img/packdispatch/freshdesk.png)
+![Freshdesk embedded plugin](/assets/img/packdispatch/freshdesk.jpg)
