@@ -69,10 +69,10 @@ Following the order of instructions is recommended to prevent possible errors.
    2. `sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}` changing the ownership of lib/node_modules, bin, and share folders.
 2. Install [Gulp.js CLI](https://gulpjs.com/) globally by running `npm install gulp-cli -g`.
 3. Install all dependencies specified in `package.json` by running `npm install`.
-4. Check for updates for all devDependecies by installing [npm-check-updates].(https://www.npmjs.com/package/npm-check-updates) package `npm install npm-check-updates -g`
+4. Check for updates for all devDependecies by installing [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) package `npm install npm-check-updates -g`
    1. Run `ncu` to see what updates are available.
    2. Run `ncu -u` to install all available updates.
-5. Run project by typing 'gulp'
+5. Run project by typing `gulp`
 
 Good source for setting correct permissions [Node.js official docs](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 
