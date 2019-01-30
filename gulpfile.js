@@ -11,6 +11,7 @@ var rename       = require('gulp-rename');
 var run          = require('gulp-run');
 var sass         = require('gulp-sass');
 var uglify       = require('gulp-uglify');
+var cache        = require('gulp-cache');
 // var fs           = require('fs');
 
 gulp.task('clean', function() {
@@ -39,20 +40,23 @@ gulp.task('build:styles', function() {
 
 gulp.task('build:images', function() {
     return gulp.src('_assets/img/**/**.*')
-        .pipe(imagemin([
-            imagemin.gifsicle({interlaced: true}),
-            imagemin.jpegtran({progressive: true}),
-            imagemin.optipng({optimizationLevel: 5}),
-            imagemin.svgo({
-                plugins: [
-                    {removeViewBox: true},
-                    {cleanupIDs: false}
-                ]
-            })
-        ], {
-            // show the name of every optimized image
-            verbose: true
-        }))
+        .pipe(cache(
+                imagemin([
+                imagemin.gifsicle({interlaced: true}),
+                imagemin.jpegtran({progressive: true}),
+                imagemin.optipng({optimizationLevel: 5}),
+                imagemin.svgo({
+                    plugins: [
+                        {removeViewBox: true},
+                        {cleanupIDs: false}
+                    ]
+                })
+                ], {
+                    // show the name of every optimized image
+                    verbose: true
+                })
+            )
+        )
         .pipe(gulp.dest('_assets/img'))
         .pipe(gulp.dest('assets/img'));
 });
