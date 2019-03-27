@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Distillery Co
-description: Scotch College website PDF to front-end code conversion
+description: The Scotch College website PDF mockup to code conversion
 tags: [SASS, CSS, Drupal, PHP, front-end, development, jquery, svg, html5, animations, animation]
 date: 2016/05/17
 image: "/assets/img/scotch/background.jpg"
