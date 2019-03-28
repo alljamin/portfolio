@@ -38,8 +38,7 @@ gulp.task('build:scripts', function() {
         .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(rename('main.min.js'))
-        .pipe(gulp.dest('assets/js'))
-        .pipe(browserSync.stream());
+        .pipe(gulp.dest('assets/js'));
 });
 
 gulp.task('build:styles', function() {
@@ -51,8 +50,7 @@ gulp.task('build:styles', function() {
             browsers: ['cover 99.5%'] 
         }))
         .pipe(rename('main.min.css'))
-        .pipe(gulp.dest('assets/styles'))
-        // .pipe(browserSync.stream());
+        .pipe(gulp.dest('assets/styles'));
 });
 
 gulp.task('build:images', function() {
@@ -75,8 +73,7 @@ gulp.task('build:images', function() {
             )
         )
         .pipe(gulp.dest('_assets/img'))
-        .pipe(gulp.dest('assets/img'))
-        .pipe(browserSync.stream());
+        .pipe(gulp.dest('assets/img'));
 });
 
 gulp.task('build:jekyll', function() {
