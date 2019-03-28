@@ -1,0 +1,81 @@
+.posts
+    display: flex
+    flex-wrap: wrap
+    vertical-align: baseline
+    .post
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        padding: 2em
+        overflow: hidden
+        height: 50vh
+        width: 33.333%
+        position: relative
+        cursor: pointer
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+
+        @media (max-width: 991px) 
+            width: 50%
+        
+        @media (max-width: 768px) 
+            width: 100%
+            max-height: auto
+            min-height: auto
+
+        &:before
+            content: ""
+            background-color: rgba(0,0,0,.35)
+            position: absolute
+            bottom: 0
+            left: 0
+            height: 100%
+            width: 100%
+            transition: all 200ms ease-in-out
+
+        .project-content
+            opacity: 0
+            position: relative
+            color: rgb(255,255,255)
+            transition: all 200ms ease-in-out
+            h2
+                color: rgb(255,255,255)
+                font-family: 'Roboto', sans-serif
+                font-weight: 400
+            p
+                font-family: 'Roboto', sans-serif
+                font-weight: 300
+                font-style: italic
+            .read-more
+                font-family: 'Roboto', sans-serif
+                font-weight: 400
+                font-size: 16px
+                border-bottom: 1px solid #ffffff
+
+            @media (max-width: 768px) 
+                opacity: 1
+                transition: none
+                padding: 1rem
+                background-color: rgb(68,108,179)
+
+        &:hover
+            &:before
+                background-color: rgb(68,108,179)
+                @media (max-width: 768px)
+                    background-color: rgba(0,0,0,.35)
+            
+            .project-content
+                opacity: 1
+                transform: translate3d(0,-20px,0)
+                @media (max-width: 768px)
+                    transform: none
+
+        .link
+            position: absolute
+            top: 0
+            left: 0
+            height: 100%
+            width: 100%
+            z-index: 4
+            cursor: pointer 
