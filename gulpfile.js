@@ -72,7 +72,6 @@ gulp.task('build:images', function() {
                 })
             )
         )
-        // .pipe(gulp.dest('_assets/img'))
         .pipe(gulp.dest('assets/img'));
 });
 
