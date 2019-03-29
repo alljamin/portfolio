@@ -1,46 +1,51 @@
 .sidebar
-  text-align: center;
-  padding: 2rem 1rem;
-  background-color: rgb(68,108,179);
-  color: rgb(255,255,255);
+  text-align: center
+  padding: 2rem 1rem
+  background-color: rgb(68,108,179)
+  color: rgb(255,255,255)
   a
-    color: rgb(255,255,255);
+    color: rgb(255,255,255)
     &:hover
-      text-decoration: underline;
+      text-decoration: underline
   @media (min-width: 48em)
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  .sidebar-about h1 
-    margin-top: 0;
-    font-size: 3.25rem;
+    position: fixed
+    top: 0
+    left: 0
+    bottom: 0
+    width: 18rem
+    text-align: left
+  h1 
+    margin-top: 0
+    font-size: 3.25rem
     a
-      color: rgb(255,255,255);
+      color: rgb(255,255,255)
+    @media (max-width: 48em)
+      font-size: 2rem
+  .navbar-toggle
+    display: none
+  .active
+    display: block
+
   .sidebar-nav 
-    margin-bottom: 1rem;
-    text-decoration: none;
+    margin-bottom: 1rem
+    text-decoration: none
     a
-      color: rgb(255,255,255);
-      opacity: .25;
-      margin: .25rem;
-      text-decoration: none;
-      transition: all 200ms ease-in-out;
+      color: rgba(255,255,255,.25)
+      margin: .25rem
+      text-decoration: none
+      transition: all 200ms ease-in-out
       &:hover
-        opacity: 1;    
+        color: rgba(255,255,255,1)
   .copyright
-    opacity: .25;
-    font-size: 15px;
+    opacity: .25
+    font-size: 15px
 
 @media (min-width: 48em)
   .sidebar-sticky 
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
+    position: absolute
+    right: 1rem
+    bottom: 1rem
+    left: 1rem
 
-@media (min-width: 48em)
   .content 
-    margin-left: 18rem;
+    margin-left: 18rem

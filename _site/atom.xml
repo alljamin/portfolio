@@ -4,7 +4,7 @@
  <title>Aleksandr Ljamin</title>
  <link href="alljamin.com/atom.xml" rel="self"/>
  <link href="alljamin.com/"/>
- <updated>2019-03-28T16:18:57+10:30</updated>
+ <updated>2019-03-29T23:12:44+10:30</updated>
  <id>alljamin.com</id>
  <author>
    <name></name>
@@ -275,6 +275,107 @@
 &lt;h3 id=&quot;acknowledgement&quot;&gt;Acknowledgement&lt;/h3&gt;
 
 &lt;p&gt;I would like to thank Simon Rudduck (Head of Brand) and Nigel Venning (Lead Creative) for sharing their expertise and providing me an extensive guidance and support during my time in the company. It was an absolute pleasure to work with you guys and if given a chance I would like to work with you again.&lt;/p&gt;
+</content>
+  </entry>
+ 
+ <entry>
+  <title>Red Earth Designs</title>
+    <link href="alljamin.com/redearthdesigns/"/>
+    <updated>2019-03-24T00:00:00+10:30</updated>
+    <id>alljamin.com/redearthdesigns</id>
+    <content type="html">&lt;h3 id=&quot;company&quot;&gt;Company&lt;/h3&gt;
+
+&lt;p&gt;Red Earth Designs was a small advertisement agency ran out Hindmarsh office here in Adelaide. It specialised in the production of both print and digital media. The agency took on a wide range of projects from vinyl car wrap design to website design. The majority of clients came from small to medium size businesses.&lt;/p&gt;
+
+&lt;h3 id=&quot;position-description&quot;&gt;Position description&lt;/h3&gt;
+
+&lt;p&gt;At Red Earth Designs I was working on the position of web designer. Even though my initial responsibilities covered only website design and development, over time I started to get involved with the server configuration (back-end) and project management.&lt;/p&gt;
+
+&lt;h4 id=&quot;back-end-configuration&quot;&gt;Back-end configuration&lt;/h4&gt;
+
+&lt;p&gt;Briefly about &lt;a href=&quot;https://www.crucial.com.au/&quot;&gt;Crucial&lt;/a&gt; shared hosting (back-end) modifications:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;AutoSSL functionality got enabled for every parked domain.&lt;/li&gt;
+  &lt;li&gt;Every parked website had SSH key generated with RSA-4096 algorithm.&lt;/li&gt;
+  &lt;li&gt;For temporary URLs and to present work in progress (WIP) to clients I have used Password Protected Directories along with &lt;code class=&quot;highlighter-rouge&quot;&gt;robots.txt&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;User-agent: * Disallow: /&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;meta name=&quot;robots&quot; content=&quot;noindex, nofollow&quot;&amp;gt;&lt;/code&gt; in every protected directory and in page header.&lt;/li&gt;
+  &lt;li&gt;Custom configured server-side PHP settings allowed larger memory and larger file size upload for raw footage.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;project-management&quot;&gt;Project management&lt;/h4&gt;
+
+&lt;p&gt;Some words about project management:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Provided estimates on the approximate duration of each project.&lt;/li&gt;
+  &lt;li&gt;Created sitemaps based on the client requirements.&lt;/li&gt;
+  &lt;li&gt;Addressed the client feedback by making needed revisions and alterations.&lt;/li&gt;
+  &lt;li&gt;Kept clients aware on what stage the project is currently on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;content-management-system&quot;&gt;Content Management System&lt;/h4&gt;
+
+&lt;p&gt;The agency was working with a particular type of content management system (CMS) called &lt;a href=&quot;https://www.couchcms.com/&quot;&gt;CouchCMS&lt;/a&gt;. As I have not had a prior experience with this CMS I had to spend additional time to explore and learn my way through it. A lot of essential project-based CMS configuration was done as my own initiative. For example, the official documentation did not cover the concept of local development with MAMP, but by trial and error I was able to draw out the working configuration. Additionally, I was able to identify and fix some previously unaddressed CMS configuration issues:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Removed explicit global URLs defined as &lt;code class=&quot;highlighter-rouge&quot;&gt;K_SITE_URL&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Removed database prefixes, as each project had their own separate database and there was no need to store multiple databases in one.&lt;/li&gt;
+  &lt;li&gt;Created whitelabeled CMS with the agency branding based on the latest CouchCMS release.&lt;/li&gt;
+  &lt;li&gt;Made all copy-pasted text into &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cms:editable type='richtext' ... /&amp;gt;&lt;/code&gt; to always be plain text - to eliminate text styling issues. Later on, I moved from &lt;code class=&quot;highlighter-rouge&quot;&gt;type='richtext'&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;type='textarea'&lt;/code&gt; with using &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cms:nl2br&amp;gt;&amp;lt;/cms:nl2br&amp;gt;&lt;/code&gt; in the front end.&lt;/li&gt;
+  &lt;li&gt;Changed file upload and memory limits to be higher in order to support raw footage upload.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of my findings are captured in my &lt;a href=&quot;https://gist.github.com/alljamin&quot;&gt;GitHub Gists&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-work&quot;&gt;Project work&lt;/h3&gt;
+
+&lt;p&gt;Here are some noticeable projects, which I have had a chance to work on:&lt;/p&gt;
+
+&lt;h4 id=&quot;port-vincent-progress-association-website&quot;&gt;Port Vincent Progress Association website&lt;/h4&gt;
+&lt;p&gt;Cool features:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Raw footage (photos) upload server side and CMS configuration, and web delivery optimisation process&lt;/li&gt;
+  &lt;li&gt;Event category filtering&lt;/li&gt;
+  &lt;li&gt;Business directory sub-directories&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thomasvaeth.com/instafetch.js/&quot;&gt;Instafetch.js&lt;/a&gt; integration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;remarkable-media-website&quot;&gt;Remarkable Media website&lt;/h4&gt;
+&lt;p&gt;Cool features:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sorgalla.com/lity/&quot;&gt;Lity.js&lt;/a&gt; integration&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plyr.io/&quot;&gt;Plyr.js&lt;/a&gt; integration&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pipedrive.com/&quot;&gt;Pipedrive&lt;/a&gt; API integration into contact form submission; pipeline filtering and automatic creation of new deal upon contact form submission&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;videoWrapper&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/MrbnXCdJ_0k&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;full-list-of-projects&quot;&gt;Full list of projects&lt;/h4&gt;
+
+&lt;p&gt;Here is the full list of projects* I have been working on:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Beach Hotel Seaford - &lt;a href=&quot;https://www.beachhotelseaford.com.au&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/beach-hotel-seaford/20190325095144/https://www.beachhotelseaford.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Branding By Air - &lt;a href=&quot;https://brandingbyair.com&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/branding-by-air/r55xeb7nriwlwbdh/record/https://brandingbyair.com/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Buckingham Arms Hotel - &lt;a href=&quot;https://www.buckinghamarmshotel.com.au&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/buckingham-arms-hotel/z4hvjrgjfki7jsqe/record/https://www.buckinghamarmshotel.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Carter Brothers Seed Grading - &lt;a href=&quot;https://webrecorder.io/all_lla/carter-brothers-seed-grading/20190326030208/https://redearth.agency/cbsg/&quot;&gt;Archived temporary URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;DJK roofing - &lt;a href=&quot;https://djkroofing.com.au/&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/djk-roofing/20190326025631/https://djkroofing.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Flagstaff Hotel - &lt;a href=&quot;https://www.flagstaffhotel.com.au&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/flagstaff-hotel/x3l2ut4uuz6bhnho/record/https://www.flagstaffhotel.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Force Ordnance - &lt;a href=&quot;https://forceordnance.com&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/force-ordnance/vh576otxglq2jhkk/record/https://forceordnance.com&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mitsubishi GSR Evo Club - &lt;a href=&quot;https://gsr-evo-club.net&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/mitsubishi-gsr-evo-club-and-sa-time-attack/20190325104151/https://gsr-evo-club.net&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SA Time Attack - &lt;a href=&quot;https://satimeattack.com.au&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/mitsubishi-gsr-evo-club-and-sa-time-attack/20190325104712/https://satimeattack.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Park Hotel - &lt;a href=&quot;https://parkhotel.net.au/&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/the-park-hotel/20190326072059/https://parkhotel.net.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Port Vincent - &lt;a href=&quot;https://www.portvincent.org.au&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/port-vincent-progress-association/20190325085733/https://www.portvincent.org.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RBSC - &lt;a href=&quot;https://www.rbsc.com.au&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/rbsc/20190325105859/https://www.rbsc.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Remarkable Media - &lt;a href=&quot;https://www.remarkablemedia.com&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/remarkable-media/20190325110133/https://www.remarkablemedia.com&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Shield IT - &lt;a href=&quot;https://shield-it.com.au/&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/shield-it/20190325111307/https://shield-it.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;South Eastern Hotel - &lt;a href=&quot;https://www.southeasternhotel.com.au/&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/south-eastern-hotel/20190325221140/https://www.southeasternhotel.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Tatiara Trench Diggers - &lt;a href=&quot;https://www.tatiaratrenchdiggers.com.au/&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/tatiara-trench-diggers/20190326071450/https://www.tatiaratrenchdiggers.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Vinylised - &lt;a href=&quot;https://www.vinylised.com.au/&quot;&gt;Original URL&lt;/a&gt; &lt;a href=&quot;https://webrecorder.io/all_lla/vinylised/20190326071657/https://www.vinylised.com.au/&quot;&gt;Archived URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Witches Brew Liquor Store - one page website - waiting clients’ approval&lt;/li&gt;
+  &lt;li&gt;Valley Inn Hotel - one page website - waiting clients’ approval&lt;/li&gt;
+  &lt;li&gt;TRAC Electronics - minimal HTML5 eBay item listing description template&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;*As some of the websites might change over the course of time I have recorded their current states with &lt;a href=&quot;https://webrecorder.io&quot;&gt;Webrecorder&lt;/a&gt; to showcase my contribution.&lt;/p&gt;
 </content>
   </entry>
  

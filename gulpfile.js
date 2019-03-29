@@ -72,7 +72,7 @@ gulp.task('build:images', function() {
                 })
             )
         )
-        .pipe(gulp.dest('_assets/img'))
+        // .pipe(gulp.dest('_assets/img'))
         .pipe(gulp.dest('assets/img'));
 });
 
@@ -117,8 +117,8 @@ gulp.task('build',
     )
 );
 
-//partial build
-gulp.task('partial:build', 
+//partial build styles
+gulp.task('partial:build:styles', 
     gulp.series(
         ['clean:site', 'clean:styles'],
         'build:styles',
@@ -128,7 +128,25 @@ gulp.task('partial:build',
     )
 );
 
+//partial build scripts
+gulp.task('partial:build:scripts', 
+    gulp.series(
+        ['clean:scripts'],
+        'build:scripts',
+        'build:jekyll', 
+        'browser-reload'
+    )
+);
 
+//partial build images
+gulp.task('partial:build:img', 
+    gulp.series(
+        ['clean:images'],
+        'build:images',
+        'build:jekyll', 
+        'browser-reload'
+    )
+);
 
 gulp.task('default', gulp.series(['build'], function() {
     // maybe important (injectChanges: true)
@@ -146,28 +164,8 @@ gulp.task('default', gulp.series(['build'], function() {
                 '_includes/*.html',
                 '_pages/*.md',
                 '_assets/styles/**/*.*'], 
-                gulp.series(['partial:build'])
+                gulp.series(['partial:build:styles'])
             );
-    gulp.watch(['_assets/scripts/**/*.*'], gulp.series('clean:scripts', 'build:scripts', 'build:jekyll'));
-    gulp.watch(['_assets/img/**/*.*'], gulp.series('clean:images', 'build:images', 'build:jekyll'));
+    gulp.watch(['_assets/scripts/**/*.*'], gulp.series(['partial:build:scripts']));
+    gulp.watch(['_assets/img/**/*.*'], gulp.series(['partial:build:img']));
 }));
-
-// gulp.task('default', gulp.series(['build'], function() {
-
-    
-//     browserSync.init({
-//         injectChanges: true,
-//         server: {
-//             baseDir: '_site'
-//         },
-//         open: true
-//     });
-
-//     gulp.watch('_assets/**/**/*.*', gulp.series(['build']));
-//     gulp.watch(['_config.yml' , 
-//                 './index.html', 
-//                 '404.html', 
-//                 '_layouts/*.html', 
-//                 '_includes/*.html', 
-//                 '_pages/*.md']).on('change', browserSync.reload);
-// }));

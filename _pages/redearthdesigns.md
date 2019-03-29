@@ -4,7 +4,7 @@ title: Red Earth Designs
 description: Website design and development
 tags: [web design, responsive design, digital, dynamic content, CMS, content management system, CouchCMS, WordPress, PHP, HTML5, CSS3, Apache, MySQL, database, MAMP, cPanel, WHM, SSL, SSH, web development]
 date: 2019/03/24
-image: "/assets/img/law-firm/background.jpg"
+image: "/assets/img/redearth/background.jpg"
 ---
 
 ### Company
