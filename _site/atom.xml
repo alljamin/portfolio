@@ -4,7 +4,7 @@
  <title>Aleksandr Ljamin</title>
  <link href="alljamin.com/atom.xml" rel="self"/>
  <link href="alljamin.com/"/>
- <updated>2019-03-30T09:00:02+10:30</updated>
+ <updated>2019-03-30T19:09:17+10:30</updated>
  <id>alljamin.com</id>
  <author>
    <name></name>
@@ -275,6 +275,72 @@
 &lt;h3 id=&quot;acknowledgement&quot;&gt;Acknowledgement&lt;/h3&gt;
 
 &lt;p&gt;I would like to thank Simon Rudduck (Head of Brand) and Nigel Venning (Lead Creative) for sharing their expertise and providing me an extensive guidance and support during my time in the company. It was an absolute pleasure to work with you guys and if given a chance I would like to work with you again.&lt;/p&gt;
+</content>
+  </entry>
+ 
+ <entry>
+  <title>Dynastea</title>
+    <link href="alljamin.com/dynastea/"/>
+    <updated>2019-03-20T00:00:00+10:30</updated>
+    <id>alljamin.com/dynastea</id>
+    <content type="html">&lt;h3 id=&quot;company&quot;&gt;Company&lt;/h3&gt;
+
+&lt;p&gt;Dynastea a high-tea catering and crockery hire service operating from Aldinga Beach, South Australia. It offers creating a unique special event atmosphere with it vintage cutlery, crockery, decorations, props and much more.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-involevement&quot;&gt;My involevement&lt;/h3&gt;
+
+&lt;p&gt;From the begging I have been involved with the business on multiple levels. Starting from general guidance on business and trademark registration to business assets creation. Let me briefly cover all the steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The initial step was to register the &lt;code class=&quot;highlighter-rouge&quot;&gt;com.au&lt;/code&gt; domain name, for which it is required to have an active Australian Business Number (ABN). Once ABN and trademark got registered, I have purchased a domain with &lt;a href=&quot;https://ventraip.com.au/&quot;&gt;VentraIP&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Then I have signed the business up with Google Suite (or G Suite) for professional custom domain email address - @dynastea.com.au.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;And, then, the branding process begun. We went through many different ideas and iterations before finally settling on one. I have started with exploring the possible symbol which would represent one of the services company offers - crockery hire - hence the reference to the cup. Further on based on the stakeholder feedback I have tried to incorporate floral motifs and as well as the countor of a doily. To provide options I have moved away from creating symbols to concentrating more on the words - wordmarks or lettermarks.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/img/dynastea/logo-wip.jpg&quot; alt=&quot;Logotype exploration&quot; /&gt;
+ &lt;img src=&quot;/assets/img/dynastea/business-card-concept.jpg&quot; alt=&quot;Business card concepts&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;Combining a wordmark, doily contour and playful polka dots did the trick, and client approved the concept.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/img/dynastea/business-card-final.jpg&quot; alt=&quot;Final business card&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once the branding was done, I have ordered business cards from &lt;a href=&quot;https://www.moo.com/au/&quot;&gt;Moo Print&lt;/a&gt; - 400gsm soft touch paper.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/img/dynastea/printed-cards.jpg&quot; alt=&quot;Printed business cards&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As I was waiting for the business cards to arrive I have started working on the website. My platform of choice was &lt;a href=&quot;https://webflow.com&quot;&gt;Webflow&lt;/a&gt; and even though I have not had any prior experience with it, but I have heard many good reviews, I decided to give it a try. The main reasoning behind this choice was the fact that Webflow handles both CMS, hosting and advanced visual editor, what should allow the business owner easily make changes to the website content. The live version of website is available &lt;a href=&quot;https://dynastea.com.au&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/img/dynastea/website.jpg&quot; alt=&quot;Webflow Desiger view and current website side by side&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Search Engine Optimisation. This is the area I have had a very little experience with, nevertheless I decided to give it a try. At first I have concentrated on improving the organic search results by doing the following:
+    &lt;ul&gt;
+      &lt;li&gt;Metadata tags for title and description&lt;/li&gt;
+      &lt;li&gt;Open Graph tags for title, description and image&lt;/li&gt;
+      &lt;li&gt;Canonical URL&lt;/li&gt;
+      &lt;li&gt;Automatic sitemap generation&lt;/li&gt;
+      &lt;li&gt;Google Search Console Verification&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;robots.txt&lt;/code&gt; addition&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; tag content addition for every image on the website&lt;/li&gt;
+      &lt;li&gt;Manual sitemap submission to Google Search Console&lt;/li&gt;
+      &lt;li&gt;Request to index and render at Fetch as Google&lt;/li&gt;
+      &lt;li&gt;Bing verification&lt;/li&gt;
+      &lt;li&gt;Google Analytics addition&lt;/li&gt;
+      &lt;li&gt;Google My Business Verification&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Once all the possible organic search settings were done I have moved to paid search results:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;AdSense/AdWords search campaign setup (daily budget, search phrase match setup, private consultation with Google AdWords expert)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
+
+&lt;p&gt;This business is at its early stage, but it certainly has a good starting point in terms of present visual assets and online presence. In the future the business will either be gaining or loosing traction, and only by analysing both of the results it will be possible to change the directrion, visual assets or another factors.&lt;/p&gt;
 </content>
   </entry>
  
