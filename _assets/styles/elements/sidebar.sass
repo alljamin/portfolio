@@ -1,5 +1,5 @@
 .sidebar
-  text-align: center
+  text-align: left
   padding: 2rem 1rem
   background-color: rgb(68,108,179)
   color: rgb(255,255,255)
@@ -21,10 +21,6 @@
       color: rgb(255,255,255)
     @media (max-width: 48em)
       font-size: 2rem
-  .navbar-toggle
-    display: none
-  .active
-    display: block
 
   .sidebar-nav 
     margin-bottom: 1rem
@@ -40,12 +36,14 @@
     opacity: .25
     font-size: 15px
 
-@media (min-width: 48em)
-  .sidebar-sticky 
+.sidebar-sticky
+  position: relative
+  @media (min-width: 48em)
     position: absolute
     right: 1rem
     bottom: 1rem
     left: 1rem
 
+@media (min-width: 48em) 
   .content 
     margin-left: 18rem

@@ -20,4 +20,11 @@ $(function(){
             $image.hide();
 
     });
+    
+});
+
+$(function(){
+    $(document).on("click", ".js-menu-toggle", function() {
+        $("body").hasClass("menu--open") ? $("body").removeClass("menu--open") : $("body").addClass("menu--open")
+    })
 });

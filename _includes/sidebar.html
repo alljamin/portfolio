@@ -3,23 +3,30 @@
     <h1>
       <a href="/" title="Homepage">{{ site.title }}</a>
     </h1>
+    <p class="lead">{{ site.description }}</p>
 
-    <span class="navbar-toggle" id="js-navbar-toggle">
-      <i class="fas fa-bars"></i>
-    </span>
+    <div class="menu">
+      
+      <div class="menu__toggle js-menu-toggle">
+        <div class="menu__toggle__icon">
+          <span></span>
+        </div>
+      </div>
 
-    <div id="js-menu">
-      <p class="lead">{{ site.description }}</p>
-      <nav class="sidebar-nav">
-        <a class="fa fa-github fa-2x" href="{{ site.github }}" target="_blank"></a>
-        <a class="fa fa-twitter fa-2x" href="{{ site.twitter }}" target="_blank"></a>
-        <a class="fa fa-dribbble fa-2x" href="{{ site.dribbble }}" target="_blank"></a>
-        <a class="fa fa-linkedin fa-2x" href="{{ site.linkedin }}" target="_blank"></a>
-        <a class="fa fa-stack-exchange fa-2x" href="{{ site.stackexchange }}" target="_blank"></a>
-      </nav>
-  
-      <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+      <div class="menu__wrap">
+        <nav class="sidebar-nav">
+          <a class="fa fa-github fa-2x" href="{{ site.github }}" target="_blank"></a>
+          <a class="fa fa-twitter fa-2x" href="{{ site.twitter }}" target="_blank"></a>
+          <a class="fa fa-dribbble fa-2x" href="{{ site.dribbble }}" target="_blank"></a>
+          <a class="fa fa-linkedin fa-2x" href="{{ site.linkedin }}" target="_blank"></a>
+          <a class="fa fa-stack-exchange fa-2x" href="{{ site.stackexchange }}" target="_blank"></a>
+        </nav>
+    
+        <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+      </div>
+      
     </div>
+    
     
   </div>
 </div>
