@@ -19,15 +19,15 @@ The main aim of this project was to find a best way to capture my work and prese
 
 ## Getting started
 
-The instructions below cover Windows 10 and MacOS 10.13.1, and later versions.
+The instructions below cover Windows 10 and MacOS 10.15, and later versions.
 
 ## Windows
 
 1. Install [RubyInstaller](https://rubyinstaller.org/downloads/)
 2. Run `gem jekyll install bundler`
 3. Install [Node.js](https://nodejs.org/en/)
-4. Run `npm install`
-5. Run `npm install -g gulp-cli`
+4. Run `npm i`
+5. Run `npm i -g gulp-cli`
 
 ## MacOS
 
@@ -39,42 +39,33 @@ If you have already installed GCC, Git, Node.js and Gulp.js I would recommend ch
 - Git: The easiest way to update Git is to download the latest version from the [official website](https://git-scm.com/)
 - Node.js and Gulp.js can be updated by running `npm update -g` 
 
-If any of these tools are missing on your side I would strongly recommend to do a clean install.
+If any of these tools are missing I would strongly recommend to do a clean install.
 
 ### Clean install
 
-Following the order of instructions is recommended to prevent possible errors.
+It is recommended to follow the order of instructions to prevent possible errors.
 
 #### Git
 
-1. Install [Git](https://git-scm.com/)
-2. [Fork this repository](https://github.com/alljamin/portfolio#fork-destination-box)
-3. Clone forked repository to your local machine
+1. Install [Homebrew](https://brew.sh/). Select to install command line tools.
+2. Install Git `brew install git`
 
 #### Jekyll
 
-1. Install command line tools `xcode-select --install`
-2. Install [Homebrew](https://brew.sh/)
-3. Install rbenv `brew install rbenv`
-4. Make rbenv run everytime terminal is open `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
-5. Install Ruby with rbenv `rbenv install 2.5.1`
-6. Switch from system Ruby to rbenv `rbenv global 2.5.1`
-7. Install Jekyll: `gem install jekyll` (no need to use `sudo`)
-8. Update all system gems: `gem update --system`
+1. Install rbenv `brew install rbenv`
+2. Make rbenv run everytime terminal is open `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+3. Restart terminal for the previous shell command to work.
+3. Install Ruby with rbenv `rbenv install 2.6.5`
+4. Switch from system Ruby to rbenv `rbenv global 2.6.5`
+5. Install Jekyll: `gem install jekyll`
+6. Update all system gems: `gem update --system`
 
 #### Gulp.js
 
-1. Install [Node.js](https://nodejs.org/en/).
-   1. `npm config get prefix` should return `/usr/local` if it returns just `/usr` check [this](https://docs.npmjs.com/getting-started/fixing-npm-permissions#option-2-change-npms-default-directory-to-another-directory) before proceeding further.
-   2. `sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}` changing the ownership of lib/node_modules, bin, and share folders.
-2. Install [Gulp.js CLI](https://gulpjs.com/) globally by running `npm install gulp-cli -g`.
-3. Install all dependencies specified in `package.json` by running `npm install`.
-4. Check for updates for all devDependecies by installing [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) package `npm install npm-check-updates -g`
-   1. Run `ncu` to see what updates are available.
-   2. Run `ncu -u` to install all available updates.
-5. Run project by typing `gulp`
-
-Good source for setting correct permissions [Node.js official docs](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+1. Install [Node Version Manager](https://github.com/nvm-sh/nvm).
+2. Install Node: `nvm install node`
+3. Install all dependencies `npm i`
+4. Link Gulp `npm link gulp`
 
 ## Workflow
 
@@ -136,5 +127,3 @@ Bits and pieces of code are used from the following awesome projects:
 - [Forty Jekyll theme](https://github.com/andrewbanchich/forty-jekyll-theme) built by [Andrew Banchich](https://github.com/andrewbanchich) based on [Forty HTML5 theme](https://html5up.net/forty) by [HTML5UP](https://html5up.net/). Under [Creative Commons Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0/).
 - Inspiration on CSS transitions from [Riley Carroll](http://rileycarroll.co/).
 - Jekyll and Gulp integration is based on the [post](https://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html) by [Anne Tomasevich](https://github.com/AnneTee).
-
-
