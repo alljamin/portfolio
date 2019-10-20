@@ -7,3 +7,4 @@ assets/
 Thumbs.db
 node_modules
 .jekyll-metadata
+.jekyll-cache

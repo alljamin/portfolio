@@ -4,35 +4,34 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "git subtree push --prefix _site origin gh-pages && git push"
+  },
+  "dependencies": {
+    "extend": "^3.0.2"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "critical": "^1.3.4",
-    "del": "^5.0.0",
+    "critical": "^1.3.6",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
-    "gulp-cache": "^1.1.2",
+    "gulp-cache": "^1.1.3",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^6.0.0",
+    "gulp-imagemin": "^6.1.1",
     "gulp-rename": "^1.3.0",
     "gulp-run": "^1.7.1",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
-    "gulp-util": "^3.0.8"
+    "gulp-util": "^3.0.8",
+    "node-sass": "^4.12.0"
   },
+  "browserslist":[
+    "cover 99.5%"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alljamin/portfolio.git"
   },
   "author": "Aleksandr Ljamin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alljamin/portfolio/issues"
-  },
-  "homepage": "https://github.com/alljamin/portfolio#readme",
-  "dependencies": {
-    "extend": "^3.0.2"
-  }
+  "license": "ISC"
 }

@@ -46,9 +46,7 @@ gulp.task('build:styles', function() {
         .pipe(sass({
             outputStyle: 'compressed'
         }))
-        .pipe(autoprefixer({ 
-            browsers: ['cover 99.5%'] 
-        }))
+        .pipe(autoprefixer())
         .pipe(rename('main.min.css'))
         .pipe(gulp.dest('assets/styles'));
 });
