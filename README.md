@@ -83,7 +83,7 @@ For more information look into the contents of `gulpfile.js` and `package.json`.
 
 ## Extra
 
-- If anyone is using [Visual Studio Code](https://code.visualstudio.com/) I would recommend installing a [SASS syntax indentation and highlighting extension](https://github.com/robinbentley/vscode-sass-indented).
+- If anyone is using [Visual Studio Code](https://code.visualstudio.com/) I would recommend installing a [SASS syntax indentation and highlighting extension](https://github.com/TheRealSyler/vscode-sass-indented).
 - If you decide to create your own project based on my, and host it on Github Pages, you might face issues with relative links. To solve this you need to do two changes one in `_config.yml` and second in `gulpfile.js`. In `_config.yml` you need to change:
 ```
 baseurl: /YOUR_GITHUB_REPOSITORY_NAME
