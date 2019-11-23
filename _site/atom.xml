@@ -4,7 +4,7 @@
  <title>Aleksandr Ljamin</title>
  <link href="alljamin.com/atom.xml" rel="self"/>
  <link href="alljamin.com/"/>
- <updated>2019-10-20T16:55:22+10:30</updated>
+ <updated>2019-11-23T15:05:01+10:30</updated>
  <id>alljamin.com</id>
  <author>
    <name></name>
@@ -442,6 +442,27 @@
 &lt;/ol&gt;
 
 &lt;p&gt;*As some of the websites might change over the course of time I have recorded their current states with &lt;a href=&quot;https://webrecorder.io&quot;&gt;Webrecorder&lt;/a&gt; to showcase my contribution.&lt;/p&gt;
+</content>
+  </entry>
+ 
+ <entry>
+  <title>NextFaze</title>
+    <link href="alljamin.com/nextfaze/"/>
+    <updated>2019-09-30T00:00:00+09:30</updated>
+    <id>alljamin.com/nextfaze</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://nextfaze.com&quot;&gt;NextFaze&lt;/a&gt; is an Adelaide-based agile software engineering agency which specialises in developing both native applications and cross-platform web applications.
+​&lt;/p&gt;
+
+&lt;p&gt;As a contractor and further on a full-time employee I have worked on user interface design and front-end web development for two different Angular web applications. Both of these projects have not been officially released to the public so (unfortunately) instead of sharing visuals or code snippets I will shed some light on the processes and general work organisation.&lt;/p&gt;
+
+&lt;p&gt;​
+The user interface design project involved close collaboration with the client covering visuals, colour palette and layout exploration. This tight cooperation allowed to move forward at the very fast pace producing 6 major design revisions with the period of a month. The final deliverable was presented in the form of interactive Marvel prototype. The implementation of the user interface was done in &lt;a href=&quot;https://www.sketch.com/&quot;&gt;Sketch&lt;/a&gt;. Every time client requested a modification it was very easy to realise it in Sketch and then simply update the prototype via the &lt;a href=&quot;https://marvelapp.com/integrations/sketch&quot;&gt;Marvel plugin&lt;/a&gt;. Client then could instantly access the latest changes with Marvel URL. The same setup allowed developers to access precise styling of the each user interface element via &lt;a href=&quot;https://marvelapp.com/features/handoff/&quot;&gt;Marvel Handoff&lt;/a&gt; feature.&lt;/p&gt;
+
+&lt;p&gt;​
+In the second project the user interface design has been provided by the client side design team via the &lt;a href=&quot;https://www.adobe.com/au/products/xd.html&quot;&gt;Adobe XD&lt;/a&gt;. This time instead of proposing the UI I was assigned to precisely replicate the provided design elements in Angular components. This Angular project architecture has been laid out following the monorepository &lt;a href=&quot;https://nrwl.io&quot;&gt;NRWL&lt;/a&gt; approach and utilising the &lt;a href=&quot;https://angularconsole.com/&quot;&gt;Angular Console&lt;/a&gt;. The UI framework of choice was &lt;a href=&quot;https://ionicframework.com/&quot;&gt;Ionic 4&lt;/a&gt;. Having some exposure to Angular from the previous project helped to get up to speed and spend less time on research concentrating on the task execution.&lt;/p&gt;
+
+&lt;p&gt;​
+Overall it is been a great experience to work in such a talented team of individuals with diverse backgrounds. I have definitely learned a lot and made some new good friends.&lt;/p&gt;
 </content>
   </entry>
  

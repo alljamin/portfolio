@@ -33,15 +33,16 @@ gulp.task('clean:images', function() {
     return del('assets/img');
 });
 
-gulp.task('build:scripts', function() {
+gulp.task('build:scripts', function(done) {
     return gulp.src('_assets/js/*.js')
         .pipe(concat('main.js'))
         .pipe(uglify())
         .pipe(rename('main.min.js'))
         .pipe(gulp.dest('assets/js'));
+        done();
 });
 
-gulp.task('build:styles', function() {
+gulp.task('build:styles', function(done) {
     return gulp.src('_assets/styles/main.sass')
         .pipe(sass({
             outputStyle: 'compressed'
@@ -49,10 +50,12 @@ gulp.task('build:styles', function() {
         .pipe(autoprefixer())
         .pipe(rename('main.min.css'))
         .pipe(gulp.dest('assets/styles'));
+        done();
 });
 
-gulp.task('build:images', function() {
+gulp.task('build:images', function(done) {
     return gulp.src('_assets/img/**/**.*')
+        // cache is not working for some reason 
         .pipe(cache(
                 imagemin([
                     imagemin.gifsicle({interlaced: true}),
@@ -71,6 +74,7 @@ gulp.task('build:images', function() {
             )
         )
         .pipe(gulp.dest('assets/img'));
+        done();
 });
 
 gulp.task('build:jekyll', function() {
@@ -154,15 +158,16 @@ gulp.task('default', gulp.series(['build'], function() {
         open: true
     });
 
-    gulp.watch(['_config.yml' , 
-                './index.html', 
-                './404.html',
-                '_layouts/*.html', 
-                '_includes/*.html',
-                '_pages/*.md',
-                '_assets/styles/**/*.*'], 
-                gulp.series(['partial:build:styles'])
-            );
+    gulp.watch([
+        '_config.yml' , 
+        './index.html', 
+        './404.html',
+        '_layouts/*.html', 
+        '_includes/*.html',
+        '_pages/*.md',
+        '_assets/styles/**/*.*'], 
+        gulp.series(['partial:build:styles'])
+    );
     gulp.watch(['_assets/scripts/**/*.*'], gulp.series(['partial:build:scripts']));
     gulp.watch(['_assets/img/**/*.*'], gulp.series(['partial:build:img']));
 }));
