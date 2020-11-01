@@ -1,6 +1,6 @@
 # Portfolio
 
-The main aim of this project was to find a best way to capture my work and present it to the public. I ended up creating a custom theme for [Jekyll](https://jekyllrb.com/). Later on I introduced [Gulp.js](https://gulpjs.com/), because certain funcationality, important to me, is still missing in Jekyll for ex. live browser refresh, vendor autoprefix, javascript minification, image minification, better handling of sass and more advanced watch tasks.
+The main aim of this project was to find a best way to capture my work and present it to the internet. I have created a custom theme for [Jekyll](https://jekyllrb.com/). Later on I introduced [Gulp.js](https://gulpjs.com/), because certain funcationality, important to me, is still missing in Jekyll for ex. live browser refresh, vendor autoprefix, javascript minification, image optimisation, better handling of sass and more advanced watch tasks.
 
 ## Contents
 

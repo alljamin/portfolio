@@ -8,14 +8,12 @@ collections:
 
 exclude: ["_assets", "gulpfile.js", "node_modules", "package.json", "package-lock.json", ".jekyll-metadata"]
 
-title: Aleksandr Ljamin
+title: Alex Ljamin
 tagline: 'Personal portfolio'
-description: 'Web designer and front-end web developer'
+description: 'Front-end web developer'
 
 email: aleksandr.lmn@gmail.com
 github: https://github.com/alljamin
 twitter: https://twitter.com/alljamin
 linkedin: https://linkedin.com/in/alljamin
-medium: https://medium.com/@alljamin
-dribbble: https://dribbble.com/ljamin
 stackexchange: https://stackexchange.com/users/6679321/alljamin
